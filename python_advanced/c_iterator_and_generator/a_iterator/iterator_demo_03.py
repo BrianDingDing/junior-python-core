@@ -1,3 +1,8 @@
+"""
+    自定义可迭代对象 + 迭代器 II
+"""
+
+
 class MyRangeIterator:
     def __init__(self, number):
         self.number = number
