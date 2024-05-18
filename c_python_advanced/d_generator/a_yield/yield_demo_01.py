@@ -20,7 +20,7 @@ class StudentController:
         index += 1
         yield self.list_student[index]
 
-        # 最后一次next(), raise StopIteration
+        # 最后一次next(), raise StopIteration()
 
 
 controller = StudentController()

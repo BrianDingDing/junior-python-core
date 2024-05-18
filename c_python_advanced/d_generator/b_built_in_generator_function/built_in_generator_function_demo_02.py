@@ -37,6 +37,6 @@ print(dict_result1)
 dict_result2 = {item[0]: item[1] for item in zip(list_student_name, list_student_age)}
 print(dict_result2)
 
-# 可迭代对象转换为以下容器: list, dict, tuple. 都具有__next__函数. 因此dict能转换zip.
+# 可迭代对象转换为以下容器: list, dict, tuple. 内部都具有__next__函数循环调用. 因此dict能转换zip.
 dict_result3 = dict(zip(list_student_name, list_student_age))
 print(dict_result3)
