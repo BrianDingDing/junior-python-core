@@ -30,6 +30,3 @@ for item in data:
 
 # 解决方案: 将函数返回值由生成器改为列表
 data = list(find_number_gt_50())
-
-
-
