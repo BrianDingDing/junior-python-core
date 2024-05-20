@@ -20,11 +20,13 @@ def func02():
     print("func02")
 
 
+# 做函数时, 没有固定搭配.
 def func03(func):
     print("func03")
     # func02() # 直接调用: 固定搭配
     func()  # 间接调用: 灵活搭配
 
 
+# 使用函数时, 选择func03和谁搭配, 灵活搭配.
 func03(func02)  # 03 + 02
 func03(func01)  # 03 + 01

@@ -5,6 +5,7 @@
 """
 
 
+# 以下四种属于语法错误, 需要自己修改代码
 # NameError
 # print(name)
 
@@ -49,6 +50,7 @@ def div_apple(apple_count):
     except ZeroDivisionError:
         print("程序出错了, 输入了零")
 
+
 div_apple(10)
 print("后续逻辑")
 """
@@ -62,6 +64,7 @@ def div_apple(apple_count):
         print(f"每人分{result}个苹果")
     finally:
         print("分苹果结束了")
+
 
 div_apple(10)
 print("后续逻辑")

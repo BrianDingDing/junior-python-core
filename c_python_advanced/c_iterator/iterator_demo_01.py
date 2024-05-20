@@ -1,7 +1,7 @@
 """
-    迭代 iteration: 重复获取下一个元素的过程
-    迭代器 iterator: 完成迭代过程的对象, 具有__next__函数
-    可迭代对象 iterable: 创建迭代器的对象, 具有__iter__函数
+    迭代 iteration: 重复获取下一个元素的过程.
+    迭代器 iterator: 完成迭代过程的对象, 具有__next__函数.
+    可迭代对象 iterable: 具有__iter__函数的对象, 可以返回迭代器对象.
 """
 
 # for循环原理
@@ -11,7 +11,7 @@ iterator = message.__iter__()
 
 while True:
     try:
-        # 2. 循环获取下一个元素
+        # 2. 重复获取下一个元素
         item = iterator.__next__()
         print(item)
 
@@ -20,4 +20,4 @@ while True:
         break
 
 # 笔试题: 请简述, 对象能够参与for循环的条件是什么?
-# 答: 对象必须具有__iter__函数, 必须是可迭代对象.
+# 答: 对象必须具有__iter__函数 或者 必须是可迭代对象.
