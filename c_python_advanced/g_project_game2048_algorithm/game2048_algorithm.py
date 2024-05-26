@@ -58,7 +58,7 @@ def move_left():
 # print(map)
 
 
-# 3. 向右移动
+# 4. 向右移动
 def move_right():
     """
         向右移动map
