@@ -15,7 +15,7 @@ class Employee:
 list_employees = [
     Employee(1001, 9002, "师父", 60000),
     Employee(1002, 9001, "孙悟空", 70000),
-    Employee(1003, 9002, "猪八戒", 70000),
+    Employee(1003, 9002, "猪八戒", 80000),
     Employee(1004, 9001, "沙僧", 30000),
     Employee(1005, 9001, "小白龙", 15000),
 ]

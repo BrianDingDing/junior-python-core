@@ -1,0 +1,1 @@
+[StudentModel("dila", 13, 130, 1001), StudentModel("mama", 10, 100, 1005), StudentModel("lala", 19, 190, 1006)]
