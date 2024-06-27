@@ -16,7 +16,7 @@ def new_func(func):  # 2
 
 
 # old_func1 = new_func(old_func1)  # 1
-# 调用new_func, 并把old_func1传入了new_func, 返回的wrapper函数赋值给old_func1
+# 1. 调用new_func, 2. 并把old_func1传入了new_func, 3. 返回的wrapper函数赋值给old_func1
 @new_func
 def old_func1(a):  # 6
     print("参数是：", a)
