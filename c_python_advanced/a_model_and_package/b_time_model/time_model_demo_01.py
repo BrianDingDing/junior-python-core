@@ -17,7 +17,7 @@ print(time.time())
 # 时间戳 --> 时间元组
 print(time.localtime(1678673548.204874))
 
-# 时间元组 --> 时间戳
+# 时间元组 --> 时间戳, 时间元组最小是秒, 因此时间戳小数点后面都没了.
 print(time.mktime(tuple_time))
 
 # 时间元组 --> 字符串

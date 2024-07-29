@@ -28,7 +28,7 @@ Path("b", "b.txt").touch()
 # 重命名目录中的文件名
 # old = Path("b", "b.txt")
 #
-# # 生成新文件名
+# # 生成基于原来路径的新文件名
 # new_name = old.with_name("B.txt")  # 保持路径不变, "b/B.txt"
 # old.rename(new_name)
 #
