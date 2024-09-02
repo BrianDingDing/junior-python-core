@@ -4,7 +4,7 @@
 # range用法
 # 1. range(开始, 结束, 间隔), 不包含结束值
 # 2. range(开始, 结束), 间隔默认是1
-# 2. range(结束), 开始默认为0
+# 3. range(结束), 开始默认为0
 
 sum_value = 0
 for item in range(10, 61):
