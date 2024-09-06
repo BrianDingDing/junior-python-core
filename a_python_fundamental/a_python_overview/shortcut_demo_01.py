@@ -8,4 +8,8 @@
     7. 移动行: ctrl  + shift + 上下箭头
     8. 代码格式化: ctrl + alt + l
     9. 运行代码: ctrl + shift + F10
+
+    函数查看
+    Ctrl + P: 参数信息 (在方法中调用参数)
+    Ctrl + Q: 快速查看文档
 """
