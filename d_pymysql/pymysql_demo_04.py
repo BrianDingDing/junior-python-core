@@ -21,11 +21,11 @@ try:
     # for row in cur:
     #     print(row)
 
-    one = cur.fetchone()
-    print("one:", one)
-
-    many = cur.fetchmany(2)
-    print("many:", many)
+    # one = cur.fetchone()
+    # print("one:", one)
+    #
+    # many = cur.fetchmany(2)
+    # print("many:", many)
 
     all = cur.fetchall()
     print("all:", all)
