@@ -6,7 +6,7 @@ import pymysql
 db = pymysql.connect(
     user="root",
     password="root",
-    database="cycle",
+    database="junior_python_core",
     charset="utf8"
 )
 
@@ -20,8 +20,14 @@ data = [
     (4, "dd")
 ]
 
+"""
+cur.executemany(sql, args_list)
+功能: 多次执行SQL命令, 执行次数由列表中元组数量决定.
+参数： sql: sql语句
+      args_list: 列表中包含元组, 每个元组用于给sql语句传递参量, 一般用于写操作.
+"""
 try:
-    sql = "insert into test values(%s, %s);"
+    sql = "INSERT INTO pymysql_demo01 VALUES(%s, %s);"
     # 多次执行SQL语句
     cur.executemany(sql, data)
     db.commit()
