@@ -1,11 +1,7 @@
-from c_python_advanced.f_file.b_io.a_file_io.case_student_management_system_v3.bll import StudentController
-from c_python_advanced.f_file.b_io.a_file_io.case_student_management_system_v3.dtl import StudentModel
+from c_python_advanced.f_file.b_io.a_file_io.case_student_management_system_v3.bll import StudentController, StudentModel
 
 
 class StudentView:
-    """
-        学生视图: 处理界面逻辑, 输入输出...
-    """
 
     def __init__(self):
         self.__controller = StudentController()
@@ -65,9 +61,6 @@ class StudentView:
             print("no~好像不存在哦~")
 
     def main(self):
-        """
-            主逻辑: 程序入口
-        """
         while True:
             self.__display_menu()
             self.__select_menu()

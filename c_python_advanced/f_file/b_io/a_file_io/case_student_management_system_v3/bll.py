@@ -5,9 +5,6 @@ from c_python_advanced.f_file.b_io.a_file_io.case_student_management_system_v3.d
 
 
 class StudentController:
-    """
-        学生控制器: 负责核心功能的算法
-    """
 
     def __init__(self):
         # self.list_student = []  # type:List[StudentModel]
