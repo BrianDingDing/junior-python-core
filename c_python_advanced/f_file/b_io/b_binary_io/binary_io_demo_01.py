@@ -11,7 +11,7 @@ with open("test.png", "rb") as fr:
         fw.write(fr.read())
 
 print("abc")  # 字符串
-print(b"abc")  # 字节串, 对应相应的ASCII编码
+print(b"abc")  # 字节串, 对应一个字节, 有对应相应的ASCII编码
 
 # 2. 加密
 with open("test.png", "rb") as fr:

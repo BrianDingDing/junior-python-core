@@ -3,7 +3,7 @@
 """
 # 写法比较麻烦
 # 1. 打开
-# 只要创建python文件都以utf8编码, 但windows: 默认打开文件(open函数)方式是GBK, Linux则是utf8
+# 只要创建python文件都以utf8编码, 但windows默认打开文件(open函数)方式是GBK, Linux则是utf8
 # file = open("file_io_demo_01.py", "r", encoding="utf-8")
 # try:
 #     # 2. 操作

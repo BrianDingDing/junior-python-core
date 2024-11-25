@@ -4,9 +4,6 @@ from dtl import StudentModel
 
 
 class StudentController:
-    """
-        学生控制器: 负责核心功能的算法
-    """
 
     def __init__(self):
         self.list_student = []  # type:List[StudentModel]
@@ -19,14 +16,6 @@ class StudentController:
         self.list_student.append(new)
 
     def remove_student(self, sid):
-        # for i in range(len(self.list_student)):
-        #     if self.list_student[i].sid == sid:
-        #     if self.list_student[i].__eq__(sid):
-        #         del self.list_student[i]
-        #         return True
-        # return False
-
-        # 需要重写Model的__eq__方法
         if sid in self.list_student:
             self.list_student.remove(sid)
             return True
@@ -35,9 +24,6 @@ class StudentController:
     def update_student(self, new):
         for item in self.list_student:
             if item.sid == new.sid:
-                # item.name = new.name
-                # item.age = new.age
-                # item.score = new.score
                 item.__dict__ = new.__dict__
                 return True
         return False

@@ -1,7 +1,4 @@
 class StudentModel:
-    """
-        学生数据模型: 封装View与Controller之间数据
-    """
 
     def __init__(self, name="", age=0, score=0, sid=0):
         self.name = name

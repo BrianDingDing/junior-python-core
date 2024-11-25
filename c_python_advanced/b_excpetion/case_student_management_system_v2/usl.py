@@ -3,9 +3,6 @@ from dtl import StudentModel
 
 
 class StudentView:
-    """
-        学生视图: 处理界面逻辑, 输入输出...
-    """
 
     def __init__(self):
         self.__controller = StudentController()
@@ -45,7 +42,6 @@ class StudentView:
 
     def __display_student(self):
         for item in self.__controller.list_student:
-            # print("%s的编号是%s,年龄是%s,成绩是%s" % (item.name, item.sid, item.age, item.score))
             print(item)  # 打印Model对象, 自动执行Model的__str__
 
     def __delete_student(self):
@@ -67,9 +63,6 @@ class StudentView:
             print("no~好像不存在哦~")
 
     def main(self):
-        """
-            主逻辑: 程序入口
-        """
         while True:
             self.__display_menu()
             self.__select_menu()
